@@ -1,1 +1,0 @@
-node-webkit.app/Contents/MacOS/node-webkit package.json

@@ -1,8 +1,14 @@
 {
-  "name": "nw-demo",
-  "main": "index.html",
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-node-webkit-builder": "~0.1.21"
-  }
+    "version": "0.0.1",
+    "name": "node-webkit-template",
+    "main": "index.html",
+    "scripts": {
+        "start" : "node_modules/nodewebkit/bin/nodewebkit"
+    },
+    "window": {
+        "title" : "node-webkit-template",
+        "width": 800,
+        "height": 600,
+        "toolbar": false
+    }
 }
